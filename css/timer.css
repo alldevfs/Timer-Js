@@ -1,0 +1,49 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(246, 246, 108);
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    text-align: center;
+    width: 400px;
+    height: 210px;
+    background-color: rgb(21, 21, 21);
+    color: rgb(246, 246, 108);
+}
+.painel {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+button {
+    height: 2.5em;
+    width: 5em;
+    transition: 0.5s;
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgb(246, 246, 108);
+    color: rgb(21, 21, 21);
+}
+.start-button {
+    background-color: green;
+}
+
+.pause-button {
+    background-color: grey;
+}
+
+.stop-button {
+    background-color: red;
+}
